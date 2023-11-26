@@ -1,3 +1,3 @@
 buildCommand: pip install -r requirements.txt
 env:
-  pythonVersion: 3.9
+  pythonVersion: 3.11.5
