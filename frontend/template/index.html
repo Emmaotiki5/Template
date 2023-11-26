@@ -1,0 +1,365 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    {% block headScripts%}{% endblock headScripts %}
+    <link rel="shortcut icon" href="{% static 'svg/logo.svg' %}" type="image/x-icon">
+    {% comment %} update css_version upon changes in css files {% endcomment %}
+    {% with css_version="2.1" %}
+        {% block stylesheet %}
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+        {% endblock stylesheet%}
+    {% endwith %}
+</head>
+<body>
+    {% block body %}
+    
+    <div id = 'main-body' style="background-image: '/static/image/img9.png';">
+        <div id = 'container'>
+            <header>
+                <!-- Navbar or header section -->
+                <nav class="navbar">
+                    
+                    <div class="services">
+                        <h4>
+                        <ul>
+                            <li class = "tag"><a href="#"  class="hdr-lists">Work A</a></li>
+                            <li class = "tag"><a href="#"  class="hdr-lists">Plan A</a></li>
+                            <li class = "tag"><a href="#" class="hdr-lists">Services</a></li>
+                            <li class = "tag"><a href="#" class="hdr-lists">About</a></li>
+                            <li class = "tag"><a href="#" class="hdr-lists">Blog</a></li>
+                            <li class = "tag"><a href="#" class="hdr-lists" style="text-decoration: none;"><button type="button" id ='btn-touch'><a href="/contact" style="text-decoration: none;color: black;">Get in Touch</a></button></a></li>
+
+                            <!-- Add more service links if needed -->
+                        </ul>
+                        </h4>
+                    </div>
+
+                </nav>
+            </header>
+            <hr class = 'header1'>
+        
+            
+            <h1 id = 'Services'>Building Brands, One Success Story at a Time.</h4>
+
+            <p id = 'start'>Create a Brand That Resonates: We Can Help You Define and Communicate Your Unique Message.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="button" id = "btn-services" ><a href="#">Our Services</a></button>
+
+
+            <div class="slider-container">
+                <div id="lists-container">
+                <ul id="lists">
+                
+                    <li><img src="{% static 'img/img1.png' %}" alt=""></li>
+                    <li><img src="{% static 'img/img2.png' %}" alt=""></li>
+                    <li><img src="{% static 'img/img3.png' %}" alt=""></li>
+                </ul>
+                </div>
+            </div>
+
+
+            <div id = 'box'>
+                
+                <div id = 'box-content1'>
+                    <div id = 'box-item-1'>
+                        <h2>Brand Strategy</h2>
+                        <p>We help businesses define their unique brand message and branding positioning.</p>
+                        <a href="#" id = 'bos-link'> About Strategy</a>
+                    </div>    
+                </div>
+
+                <div id = 'box-content1'>
+                    <div id = 'box-item-1'>
+                        <h2>Visual Identity</h2>
+                        <p>We create visual elements such as logos, packaging, and marketing materials for your brand.</p>
+                        <a href="#" id = 'bos-link'> About Identity</a>
+                    </div>
+                </div>
+
+                <div id = 'box-content1'>
+                    <div id = 'box-item-1'>
+                        <h2>Digital Marketing</h2>
+                        <p>We help businesses to promote their brand online and create engaging digital experiences.</p>
+                        <a href="#" id = 'bos-link'> About Marketing</a>
+                    </div>
+                </div>
+
+                <div id = 'box-content1'>
+                    <div id = 'box-item-1'>
+                        <h2>Brand Management</h2>
+                        <p>We help businesses to implement their brand across all touchpoints and ensure consistency.</p>
+                        <a href="#" id = 'bos-link'> About Management</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <p id = 'work'>Our work</p>
+            <hr>
+
+
+
+            <h2 id = 'std-work'>Selected Work</h2>
+
+            <div id = 'second-container'>
+                <div id="second-container-item">
+                    <a href="{% static 'img/img4.png' %}"><img src="{% static 'img/img4.png' %}" alt=""></a>
+                    <div id = 'after-item-container'>
+                        <div id = 'after-item'>
+                            <p>Invision Studio</p>
+                            <p><button type="button" id = 'btn-work'>Marketing</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="second-container-item">
+                    <a href="{% static 'img/img5.png' %}"><img src="{% static 'img/img5.png' %}" alt=""></a>
+                    <div id = 'after-item-container'>
+                        <div id = 'after-item'>
+                            <p>Square Media</p>
+                            <p><button type="button" id = 'btn-work'>Branding</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="second-container-item">
+                    <a href="{% static 'img/img6.png' %}"><img src="{% static 'img/img6.png' %}" alt=""></a>
+                    <div id = 'after-item-container'>
+                        <div id = 'after-item'>
+                            <p>Vision Design</p>
+                            <p><button type="button" id = 'btn-work'>Social Media</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="second-container-item">
+                    <a href="{% static 'img/img7.png' %}"><img src="{% static 'img/img7.png' %}" alt=""></a>
+                    <div id = 'after-item-container'>
+                        <div id = 'after-item'>
+                            <p>Design Bros</p>
+                            <p><button type="button" id = 'btn-work'>Branding</button></p>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <div id = 'third-header'>
+                <h4 id = 'third-hr4'>Our Work</h4>
+            </div>
+            <hr class = "header1">
+
+
+            <div id = 'third-container'>
+                <div id = "third-container-item1">
+                    <div id="box4">
+                        <h4>Services</h4>
+                        <h2>Our Approach To Bonding</h2>
+                        <button type="button" id="btn-container-third">About Oliv</button>
+                    </div>
+                </div>
+
+                <div id = "third-container-item2">
+                    <div id="box4">
+                        <h4>Services</h4>
+                        <h2>Our Approach To Bonding</h2>
+                    </div>
+                    
+                </div>
+
+                <div id = "third-container-item3">
+                    <div id="box4">
+                        <h4>Services</h4>
+                        <h2>Our Approach To Bonding</h2>
+                    </div>                  
+                </div>
+            </div>
+            <div id = 'fourth-container'>
+                <div id = "fourth-container-item1">
+
+                    <h4>COLLABORATION IS KEY</h4>
+                    <h2>Building Strong Partnerships.</h2>
+                </div>
+                <div id = "fourth-container-item2">
+                    <h4>OUR APPROACH</h4>
+                    <h2>Achieving
+                        Real Results.</h2>
+                </div>
+                <div id = "fourth-container-item3">
+                    <h4>OUR PHILOSOPHY</h4>
+                    <h2>Building Trust,
+                        Not Pitching.</h2>
+                </div>
+            </div>
+            <div id = 'fifth-container'>
+                <div id ='header5'>
+                    <h2>Crafting Exceptional Digital Experiences Across All Platforms: Our Goal at Øliv.</h2>
+                </div>
+            </div>
+            <div id = 'sixth-container'>
+                <div id = 'sixth-container-item'>
+                    <p>At Øliv, our goal is to craft exceptional digital experiences across all platforms. In today's digitally driven world, having a strong online presence is paramount for businesses to connect with their target audience effectively. We understand the importance of delivering seamless and engaging experiences that leave a lasting impression.</p>
+                </div>
+                <div id = 'sixth-container-item'>
+                    <p>At Øliv, our goal is to craft exceptional digital experiences across all platforms. In today's digitally driven world, having a strong online presence is paramount for businesses to connect with their target audience effectively. We understand the importance of delivering seamless and engaging experiences that leave a lasting impression.</p>
+                </div>
+            </div>
+
+            <div id = footer-next>
+                <p>Our Team</p>
+            </div>
+            <hr class = 'header1'>
+            <div id = 'seventh-container'>
+                <h2>Our Team of Experts</h2>
+                <button type="button" class = 'btn-about'>About Us</button>
+            </div>
+            <div id = 'box'>
+                
+                <div id = 'box-content2-1'>
+                    <div id = 'box-item-1'>
+                        <h4>JOIN THE TEAM</h4>
+                        <p id = 'join-box'>Want to shape the future of branding.</p>
+                        <h4>Join us and shape the future of branding today!</h4>
+                        <button type="button" id="btn-apply-now">Apply Now</button>
+                        
+                    </div>    
+                </div>
+
+                <div id = 'box-content2-2'>
+                    <div id = 'box-item-1'>
+                        <div id = 'last-images'>
+                            <img src="{% static 'img/img12.jpg' %}" alt="">
+                        </div>
+                        <div id = 'mini-headings' style="display: inline-flex;">
+                            <p>Branding</p>
+                            <button type="button"><a href="/branding" style="text-decoration: none;">Branding</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = 'box-content2-3'>
+                    <div id = 'box-item-1'>
+                        <div id = 'last-images'>
+                            <img src="{% static 'img/img13.jpg' %}" alt="">
+                        </div>
+                        <div id = 'mini-headings' style="display: inline-flex;">
+                            <p>Branding</p>
+                            <button type="button"><a href="/branding" style="text-decoration: none;">Branding</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = 'box-content2-4'>
+                    <div id = 'box-item-1'>
+                        <div id = 'last-images'>
+                            <img src="{% static 'img/img14.jpg' %}" alt="">
+                        </div>
+                        <div id = 'mini-headings' style="display: inline-flex;">
+                            <p>Branding</p>
+                            <button type="button"><a href="/branding" style="text-decoration: none;">Branding</a></button>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>  
+            <div id = 'new-container-seven'>
+                <div id = 'image-container'>
+                    
+                    
+                </div>
+            </div>   
+            <div id = 'block-sentence'>
+                <div id = 'image-container-item'>
+                    <img src="{% static 'img/img18.png' %}" alt="">
+                </div>
+                <div id = 'block-sentences'>
+                    <h2 id = 'image-container-item-h1'>“We couldn't be happier with the branding strategy developed.”</h2>
+                    <p id = 'p-h1'>We approached Øliv for a complete rebranding of our company and we couldn't be happier with the results. Their market research and analysis helped us define our target audience and unique brand positioning. Their team then created a visually compelling logo and consistent branding across all touchpoints.
+                    </p>
+                
+                <br>
+                <br>
+                <p id = 'p-h1'>The new brand has helped us stand out in the market and increase sales. We highly recommend Øliv to any business looking to rebrand or refresh their brand.</p>
+                <hr class = "header2">
+                </div>
+            </div>
+            <div id = 'block-sentence'>
+                <div id = 'image-container-item'>
+                    <img src="{% static 'img/img18.png' %}" alt="">
+                </div>
+                <div id = 'block-sentences'>
+                    <h2 id = 'image-container-item-h1'>“Expert Brand Management from Øliv”</h2>
+                    <p id = 'p-h1'>As a growing business, it was important for us to have a strong and consistent brand. Øliv's brand management services helped us to achieve this. They conducted a thorough brand audit and provided valuable insights and recommendations. 
+                    </p>
+                
+                <br>
+                <br>
+                <p id = 'p-h1'>Their ongoing monitoring and implementation of our brand has helped us maintain consistency and stay aligned with our business goals. We couldn't be happier with the results and highly recommend Øliv's brand management services.</p>
+                <hr class = "header2">
+                </div>
+            </div>  
+            <div id = 'ninth-container'>
+                <div id = 'main-headers'>
+                    <div id = 'main-headers-items'>
+                            <h4>Contact</h4>
+                            <div id = 'last-part'>
+                                <h2>Let's start building your brand's unique story together.</h2>
+                                <p>Want to see what a difference a strong brand can make? Request a consultation today.</p>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+                
+            </div>
+            <div id = 'test-relative'>
+                <div id = 'test-relative-item'>
+
+
+                </div>
+                <div id = 'test-relative-item'>
+                    
+                </div>
+                <div id = 'test-relative-item'>
+                    
+                </div>
+                <div id = 'test-relative-item'>
+                    
+                </div>
+            </div>   
+        </div>                                  
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {% endblock body %}
+    {% comment %} update js_version upon changes in js files {% endcomment %}
+    {% with js_version="2.1" %}
+        {% block scripts %}
+        <script src="{% static 'js/index.js' %}"></script>
+        
+        
+        {% endblock scripts %}
+    {% endwith %}
+</body>
+</html>
