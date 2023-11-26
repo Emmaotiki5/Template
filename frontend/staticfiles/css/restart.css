@@ -1,0 +1,659 @@
+/* Reset and general styles */
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: black;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#container {
+    margin: 2%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Company name styles */
+.tag {
+    display: inline-block;
+    margin-right: 20%;
+    margin-top: 2.5%;
+}
+.tag:first-child {
+    display: inline-block;
+    margin-right: 600px;
+    margin-top:3.5rem;
+}
+
+
+.hdr-lists{
+    text-decoration: none;
+    color: black;
+}
+
+#Services {
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 2%;
+    font-weight: 1; /* Very light font weight */
+    font-family: 'Manrope',sans-serif;
+    max-width: 80%;
+
+
+
+}
+
+
+
+#start {
+    font-size: 30px;
+    margin-left: 4rem;
+    max-width: 50%;
+}
+
+.slider-container {
+    margin-left: 4rem;
+}
+
+#btn-services {
+    margin: 60px;
+    width: 20%px;
+    height: 70%;
+    background-color: black;
+    
+    border: none;
+    border-radius: 30px; /* Adjust the value to control the roundness */
+    cursor: pointer;
+
+
+}
+
+
+#btn-services:hover{
+    background-color: aqua;
+
+}
+
+#btn-services a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+#lists-container {
+    margin-left: 4%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap; 
+}
+
+
+#lists {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin:0; /* Remove default margin */
+    display: flex;
+    overflow: hidden;
+
+
+}
+
+
+#lists li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between items */
+
+}
+
+
+#lists li:last-child {
+    margin-right: 0px;
+}
+
+
+#lists img {
+    max-width: 360px; /* Set maximum width */
+    max-height: 360px; /* Set maximum height */
+    width: auto; /* Ensure aspect ratio is maintained */
+    height: auto; /* Ensure aspect ratio is maintained */
+}
+
+
+#box {
+    
+    margin-right: 2%;
+    margin-top: 2%;
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+
+}
+
+
+
+#box-content1 {
+    width: 45%;
+    height:45%;
+    margin-left: 2rem;
+    line-height: 30px;
+    border: none;
+    background-color: rgb(235, 235, 235, 0.5);
+}
+
+
+#box-content2-1 {
+    width: 45%;
+    height: 45%;
+    margin-left: 2rem;
+    line-height: 30px;
+    border: none;
+    background-color: rgba(205, 255, 212, 0.7)
+}
+
+#box-content2-2 {
+    width: 45%;
+    height: 45%;
+    margin-left: 2rem;
+    line-height: 30px;
+    border: none;
+    background-color: rgba(228, 228, 228, 0.7)
+}
+
+#box-content2-3 {
+    width: 10%;
+    height: 10%;
+    margin-left: 2rem;
+    line-height: 30px;
+    border: none;
+    background-color: rgba(228, 228, 228, 0.7)
+}
+
+#box-content2-4 {
+    width: 45%;
+    height: 70%;
+    margin-left: 2rem;
+    line-height: 30px;
+    border: none;
+    background-color: rgba(228, 228, 228, 0.7)
+}
+
+#box-item-1 {
+    margin:2%;
+    font-size: 1.2rem;
+    width: 90%;
+   
+    
+
+}
+
+#box-item-1 h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+#bos-link {
+    color: black;
+}
+
+#work {
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+
+
+#std-work {
+    margin: 4rem;
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+
+
+#first-line {
+    font-weight: 100;
+    padding: 0;
+}
+
+
+
+.header1{
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the line */
+    background-color: #ccc; /* Faint color */
+    width: 95%; /* Set the width of the line */
+    margin: 20px auto; /* Center the line */
+}
+
+
+
+.header2{
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the line */
+    background-color: rgba(234, 227, 249, 0.5); /* Faint color */
+    width: 800px; /* Set the width of the line */
+    margin-left: 30%; /* Center the line */
+}
+
+
+#btn-touch {
+    border-radius: 30px;
+    background-color: white;
+    color:black;
+    height: 2.5rem;
+    width: 7rem;
+}
+#second-container-item {
+    display: inline-flex;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+#third-container {
+    width: 80%;
+   
+}
+
+#third-container-item1 {
+    display: inline-flex;
+    max-width: 300px;
+    width: 300px;
+    height: 388px;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 0.5rem;
+    border: 0;
+    background-color: rgba(234, 227, 249, 0.5); 
+
+}
+
+
+#third-container-item2 {
+    display: inline-flex;
+    max-width: 500px;
+    width: 300px;
+    height: 388px;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    border: 0;
+    background-color: rgba(234, 227, 249, 0.5); 
+
+}
+
+
+#third-container-item3 {
+    display: inline-flex;
+    max-width: 500px;
+    width: 300px;
+    height: 388px;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    border: 0;
+    background-color: rgba(249, 227, 249, 0.5); 
+
+}
+
+#box4{
+    opacity: 1;
+}
+
+#fourth-container{
+    margin-top: 4rem;
+    margin-left: 24.5rem;
+}
+#fourth-container-item1{
+    display: inline-block;
+    
+    margin-right: 1.5rem;
+    border: 0;
+    width: 29.5%;
+    height: 388px;
+    text-align: left;
+    background-color: rgba(234, 227, 249, 0.5); 
+} 
+#fourth-container-item2{
+    display: inline-block;
+    
+    margin-right: 1.5rem;
+    border: 0;
+    width: 29.5%;
+    height: 388px;
+    text-align: left;
+    background-color: rgba(243, 221, 190, 0.5);
+}
+#fourth-container-item3{
+    display: inline-block;
+    
+    margin-right: 1.5rem;
+    border: 0 ;
+    width: 29.5%;
+    height: 388px;
+    text-align: left;
+    background-color: rgba(234, 227, 249, 0.5);
+}
+
+#fourth-container-item3 h4,
+#fourth-container-item2 h4,
+#fourth-container-item1 h4 {
+    font-weight: 100;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+#fourth-container-item1 h2,
+#fourth-container-item2 h2,
+#fourth-container-item3 h2 {
+   
+    margin-top: 15rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+
+
+#fifth-container {
+    text-align: left;
+    margin-left: 24rem;
+    width: 50%;
+}
+
+
+#sixth-container {
+    display: inline-flex;
+    width: 51%;
+    margin-left: 24rem;
+    line-height: 1.6rem;
+    
+}
+
+
+#sixth-container-item p {
+    margin-right: 5rem;
+}
+
+
+
+
+
+
+#fifth-container h2 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+#btn-container-third {
+    height: 53px;
+    width: 138px;
+    border-radius: 50px;
+    margin-top: 12rem;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+
+#box4 {
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+
+
+
+#second-container-item img {
+    max-width: 20%; /* Set maximum width */
+    max-height: 20%; /* Set maximum height */
+    width: auto; /* Ensure aspect ratio is maintained */
+    height: auto; 
+    margin: 2%;
+
+}
+
+#second-container-item img:hover{
+    cursor: crosshair;
+
+}
+
+
+#after-item {
+    display: inline-flex;
+    margin-left: 6rem;
+    justify-content: center;
+
+}
+
+#after-item button {
+    margin-left: 16rem;
+    height: 2rem;
+    width: 8rem;
+}
+
+
+#after-item p {
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+
+#btn-work {
+    border-radius: 50px;
+}
+#btn-work:hover {
+    background-color: black;
+    color: #FFFFFF;
+
+}
+
+
+
+#header5 h2 {
+    color: rgba(0, 0, 0, .7);
+}
+
+#third-header {
+    margin: 6rem;
+}
+
+
+
+
+#footer-next {
+    margin-left: 4rem;
+}
+#third-hr4 {
+    font-weight: 100;
+    font-family: 'Manrope', sans-serif;
+}
+
+#sixth-container-item p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#seventh-container {
+    margin-left: 4rem;
+    display: inline-flex;
+    width: 80%;
+}
+
+
+
+#seventh-container h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgba(0, 0, 0, .7);
+}
+
+
+
+.btn-about {
+    margin-left: 5%;
+    height: 2%;
+    margin-top: 3rem;
+    width: 4%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+
+
+}
+
+
+#box-item-1 h4 {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#join-box {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    margin-top: .3rem;
+}
+
+
+#last-images img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 3%;
+}
+
+
+
+
+#btn-apply-now {
+    margin-top: 1.5rem;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 30px;
+    height: 2rem;
+    width: 8rem;
+}
+
+
+#mini-headings {
+    margin-top: 3rem;
+    margin-left: -3rem;
+    color: black
+}
+
+#mini-headings button {
+    height: 2.5rem;
+    border-radius: 30px;
+    width: 6rem;
+    color: #FFFFFF;
+    background-color: black;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    align-self: self-start;
+} 
+
+
+#image-container {
+    width: 100%;
+    display: inline-flex;
+    margin-left: 20rem;
+
+}
+
+#image-container-item img {
+    margin-top: 2rem;
+    max-width: 200px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
+    margin-left: -6rem;
+
+
+}
+
+#image-container-item-h1 {
+    margin-left: 30%;
+    width: 40%;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+
+
+#block-sentences  {
+    display: inline-block;
+    width: 85%;
+    margin-left: -5%;
+    font-weight: 100;
+}
+
+#block-sentences p {
+    margin-left: 50%;
+}
+
+
+#block-sentence{
+    display: inline-flex;
+    width: 50%;
+    margin-left: 30%;
+    font-weight: 100;
+}
+
+
+
+#p-h1{
+    width : 640px;
+    font-size: 1rem;
+    justify-content: left;
+
+}
+
+
+
+#main-headers{
+    display: inline-flex;
+    margin-left: 10%;
+    background-color: rgba(234, 227, 249, 0.5);
+    width: 90%;
+    
+}
+
+
+#main-headers-items {
+    display: inline-flex;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+#main-headers-items h2{
+    margin-left: 18rem;
+    font-size: 2.8rem;
+    width: 50%;
+}
+
+
+
+#last-part p {
+    margin-left: 18rem;
+    font-size: 1.5rem;
+    width: 35rem;
+    line-height: 40px;
+   
+}
+
+
+
+
+
+
